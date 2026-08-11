@@ -121,21 +121,8 @@ Two Strikers Baseball · TheITIN · NH Management · In2Touch · Art Quest · Te
 
 ## GitHub Activity
 
-<!-- Theme-aware: these swap automatically for viewers on light vs dark GitHub -->
+<!-- Theme-aware: images swap automatically for viewers on light vs dark GitHub -->
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Sahilsalariasoftradix&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Sahilsalariasoftradix&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sahilsalariasoftradix&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahilsalariasoftradix&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahilsalariasoftradix&layout=compact&theme=default&hide_border=true&langs_count=8" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahilsalariasoftradix&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</picture>
-
-<br/><br/>
 
 <!-- Snake: eats the contribution grid -->
 <picture>
