@@ -1,0 +1,76 @@
+name: Project Enquiry
+description: Scoping a build, a delivery review, or a second read on requirements
+title: "[Enquiry] "
+labels: ["enquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. Fill this in and I will reply here.
+        Please keep anything commercially sensitive out of a public issue. If it is confidential, just say so and leave contact details, and we will move it to email.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name and company
+      placeholder: Jane Doe, Acme Ltd
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What do you need
+      options:
+        - New build, scoping and estimate
+        - Existing product, taking over delivery
+        - QA process or audit
+        - Delivery or requirements review
+        - Something else
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platforms in scope
+      multiple: true
+      options:
+        - iOS
+        - Android
+        - Web app
+        - Backend / API
+        - Admin panel
+        - WordPress
+        - AI / ML component
+        - Not sure yet
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you building
+      description: A few lines on the product, the users, and where it is today
+    validations:
+      required: true
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Target timeline
+      placeholder: e.g. MVP by November, or no fixed date yet
+
+  - type: input
+    id: contact
+    attributes:
+      label: Best way to reach you
+      placeholder: Email or LinkedIn
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand this issue is public and I have left confidential details out
+          required: true
